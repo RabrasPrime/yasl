@@ -1,0 +1,17 @@
+#!../yasl_linux
+
+{print} aff
+
+{"\n" print} newline
+
+{=}dup
+{= !}pop
+
+{1 +}incr
+{1 -}decr
+
+!!
+
+# 1 <= ? ("error, not enough arguments\n" print 1 exit)
+=
+# ! 0 <= ? ("error, first argument must be positive\n" print 1 exit)
